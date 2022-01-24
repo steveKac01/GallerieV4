@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .containerGallery {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerImg {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+ 
+  .monCache {
+    width: 800px;
+    border: white 3px solid;
+    overflow: hidden;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .capture {
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bolder;
+    opacity: 60%;
+    text-align: center;
+    width: 100%;
+  }
+  .test {
+    position: relative;
+  }
+  .miniImg{
+    cursor:pointer;
+    opacity: 50%;
+  }
+  .miniImg:hover
+  {
+    opacity: 100%;
+  }
