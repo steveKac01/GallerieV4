@@ -20,7 +20,7 @@ body {
  
   .monCache {
     width: 800px;
-    border: white 3px solid;
+    border: white 1px solid;
     overflow: hidden;
   }
   
@@ -49,4 +49,6 @@ body {
   .miniImg:hover
   {
     opacity: 100%;
+  
   }
+ 
